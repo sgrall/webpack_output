@@ -1,0 +1,27 @@
+{
+  "name": "webpack_output",
+  "version": "1.0.0",
+  "description": "Sample to setup a dist folder where the webpack bundle and main HTML will be copied to",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgrall/webpack_output.git"
+  },
+  "author": "sgrall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgrall/webpack_output/issues"
+  },
+  "homepage": "https://github.com/sgrall/webpack_output#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "html-webpack-plugin": "^2.24.1",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
